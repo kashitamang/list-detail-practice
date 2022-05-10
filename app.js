@@ -1,6 +1,7 @@
 console.log('hello from app.js');
 // import functions and grab DOM elements
-
+import { planets } from './data.js';
+import { renderPlanet } from './utils.js';
 // let state
 
 // set event listeners 

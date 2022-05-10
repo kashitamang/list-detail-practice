@@ -5,13 +5,13 @@ export function renderPlanet(planet) {
     const h2 = document.createElement('h2');
     h2.textContent = planet.name;
 
-    const img = document.createElement('img');
-    img.src = planet.image;
-
     const a = document.createElement('a');
     a.href = `./planets/?id=${planet.id}`;
 
-    div.append(h2, img, a);
+    const img = document.createElement('img');
+    img.src = planet.image;
+
+    div.append(h2, a, img);
     a.append(img);
 
     return div;

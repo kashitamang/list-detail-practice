@@ -8,8 +8,9 @@ body {
 
 #planets {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    padding-left: 15%;
 }
 
 #planet {

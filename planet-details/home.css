@@ -4,25 +4,19 @@
     font-family: 'Iceland', cursive;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 90px;
-}
-
 body {
     background-image: url('../assets/background.png');
     color: white;
-}
-
-#planets {
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.planet {
+li, p {
+    font-size: 1.5rem;
+}
+
+.planet-details {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,20 +25,20 @@ body {
 }
 
 img {
-    width: 70%;
+    width: 100%;
     border-radius: 15%;
 }
 
-img:hover {
-    border: 2px solid chartreuse;
-}
-
-#planet:hover {
-    color: chartreuse;
-}
-
-a {
+footer {
+    height: 70px;
+    padding-bottom: 5px;
+    font-size: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-image: url('../assets/background.png');
+}
+
+a:hover {
+    color: chartreuse;
 }

@@ -1,3 +1,4 @@
+console.log('hello from app.js');
 // import functions and grab DOM elements
 
 // let state

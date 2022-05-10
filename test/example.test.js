@@ -16,3 +16,5 @@ test('time to test a function', (expect) => {
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
 });
+
+{/* <div id="planet"><h2>mars</h2><img src="./assets/mars.jpg"></div> */}

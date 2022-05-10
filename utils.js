@@ -6,7 +6,7 @@ export function renderPlanet(planet) {
     h2.textContent = planet.name;
 
     const a = document.createElement('a');
-    a.href = `./planets/?id=${planet.id}`;
+    a.href = `./planet-details/?id=${planet.id}`;
 
     const img = document.createElement('img');
     img.src = planet.image;

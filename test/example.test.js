@@ -22,7 +22,7 @@ test('time to test a function', (expect) => {
 
 test('test renderPlanet() function', (expect) => {
 
-    const expected = `<div class="planet"><h2>mars</h2><a href="./planets/?id=1"><img src="./assets/mars.jpg"></a></div>`;
+    const expected = `<div class="planet"><h2>mars</h2><a href="./planet-details/?id=1"><img src="./assets/mars.jpg"></a></div>`;
 
     const actual = renderPlanet(planets[0]);
     

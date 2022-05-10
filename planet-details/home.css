@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 
-* {
+*, li, a {
     font-family: 'Iceland', cursive;
 }
 
@@ -12,14 +12,11 @@ body {
     align-items: center;
 }
 
-#planets {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 15%;
+li, p {
+    font-size: 1.5rem;
 }
 
-#planet {
+.planet-details {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,10 +29,10 @@ img {
     border-radius: 15%;
 }
 
-img:hover {
-    border: 2px solid chartreuse;
+a {
+    font-size: 1.5rem;
 }
 
-#planet:hover {
+a:hover {
     color: chartreuse;
 }
